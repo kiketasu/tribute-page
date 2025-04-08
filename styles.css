@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#title {
+    text-align: center;
+}
+
+#subtitle {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+#image {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    box-shadow: 9px 10px 5px -4px rgba(0,0,0,0.17);
+-webkit-box-shadow: 9px 10px 5px -4px rgba(0,0,0,0.17);
+-moz-box-shadow: 9px 10px 5px -4px rgba(0,0,0,0.17);
+}
+
+#image-2 {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 9px 10px 5px -4px rgba(0,0,0,0.17);
+-webkit-box-shadow: 9px 10px 5px -4px rgba(0,0,0,0.17);
+-moz-box-shadow: 9px 10px 5px -4px rgba(0,0,0,0.17);
+}
+
+#img-caption {
+    text-align: center;
+    font-style: italic;
+}
+
+.card{
+    border-radius: 10px;
+    background-color: #f9f8ed;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 9px 10px 5px -4px rgba(0,0,0,0.17);
+-webkit-box-shadow: 9px 10px 5px -4px rgba(0,0,0,0.17);
+-moz-box-shadow: 9px 10px 5px -4px rgba(0,0,0,0.17);
+    
+}
+
+hr{
+    margin-top: -15px;
+}
+
+#tribute-info {
+    margin-top: 20px;
+}
+
+#tribute-info h3 {
+    margin-top: 20px;
+}
+
+#tribute-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#tribute-info li {
+    margin-bottom: 10px;
+}
+
+#tribute-link {
+    color: blue;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
